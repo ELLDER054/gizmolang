@@ -1,0 +1,27 @@
+a:link, a:visited {
+  background-color: #a89796;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover {
+  background-color: rgb(224, 210, 210);
+}
+
+a {
+    height: 15%;
+    width: 50%;
+}
+
+#title {
+    font-size: 26px;
+}
+
+nav {
+    position: absolute;
+    top: 15%;
+    right: 75%;
+}
