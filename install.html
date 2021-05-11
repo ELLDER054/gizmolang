@@ -1,20 +1,40 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
-    <title>repl.it</title>
-    <link href="style.css" rel="stylesheet" type="text/css" />
-  </head>
-  <body>
-      <nav>
-        <a href="https://github.com/ellder054/gizmo-lang">Repository</a>
-        <br>
-        <a href="index.html">Home</a>
-        <br>
-        <a href="docs.html">docs</a>
-    </nav>
-    <h1 align="center">Install Gizmo</h1>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>repl.it</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+	<div align="center" id="nav-bar">
+        <a href="index.html" id="top">The Gizmo Programming Language</a>
+        <a class="tab" href="docs.html">Docs</a>
+        <a class="tab" href="install.html">Install</a>
+        <a class="tab" href="https://github.com/ellder054/gizmo-lang/">Repository</a>
+    </div>
+<img src="https://user-images.githubusercontent.com/76635411/117458638-7f045b80-af18-11eb-8bbe-33fb328ea454.png">
+<pre>
+<h1>The Gizmo Installation Guide</h1>
+Linux is recommended for Gizmo users, but if you are on
+windows, <a href="https://ubuntu.com/#download">Ubuntu</a> is just as good.
+
+If git is already installed, you can skip the first
+command
+
+sudo apt install git
+git clone https://github.com/ellder054/gizmo-lang
+cd gizmo-lang
+./main.sh filename.gizmo output
+./output
+</pre>
     <script src="script.js"></script>
+    <style>
+        div {
+            font-size: 20px;
+        }
+    </style>
   </body>
 </html>
