@@ -1,27 +1,45 @@
-a:link, a:visited {
-  background-color: #a89796;
-  color: white;
-  padding: 14px 25px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
+.tab:link, .tab:visited {
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
 }
 
-a:hover {
-  background-color: rgb(224, 210, 210);
+.tab:hover, .tab:active {
+    background-color: rgb(132, 221, 236);
 }
 
-a {
-    height: 15%;
-    width: 50%;
+#nav-bar {
+    background-color: rgb(52, 201, 228);
+    color: rgb(255, 255, 255);
 }
 
-#title {
-    font-size: 26px;
+#top:link, #top:visited {
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
 }
 
-nav {
+#top:hover, #top:active {
+    background-color: rgb(52, 201, 228);
+    color: #FFFFFF;
+}
+
+* {
+    font-family: monospace;
+}
+
+#top {
+    font-size: 35px;
+}
+
+pre {
+    font-size: 20px;
     position: absolute;
-    top: 15%;
-    right: 90%;
+    right: 20%;
+    top: 50%;
 }
