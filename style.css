@@ -37,9 +37,19 @@
     font-size: 35px;
 }
 
-pre {
-    font-size: 20px;
-    position: absolute;
-    right: 20%;
-    top: 50%;
+@media screen and (max-width: 900px) {
+   pre {
+      font-size: 20px;
+      position: absolute;
+      right: 20%;
+      top: 50%;
+   }
+}
+@media screen and (max-width: 600px) {
+   pre {
+      font-size: 20px;
+      position: absolute;
+      right: 0%;
+      top: 50%;
+   }
 }
