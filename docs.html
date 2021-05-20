@@ -4,72 +4,35 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width">
-	<title>The Gizmo Documentation</title>
+	<title>Gizmo Documentation</title>
 	<link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
+    <menu><menu><menu>
+<img height="100px" width="330px" src="https://user-images.githubusercontent.com/76635411/117458638-7f045b80-af18-11eb-8bbe-33fb328ea454.png">
+</menu></menu></menu>
 	<div align="center" id="nav-bar">
-        <a href="index.html" id="top">The Gizmo Programming Language</a>
-        <a class="tab" href="docs.html">Docs</a>
+		<a href="index.html" id="top">The Gizmo Programming Language</a>
+        <a class="tab" href="docs.html">Documentation</a>
         <a class="tab" href="install.html">Install</a>
         <a class="tab" href="https://github.com/ellder054/gizmo-lang/">Repository</a>
     </div>
-<img src="https://user-images.githubusercontent.com/76635411/117458638-7f045b80-af18-11eb-8bbe-33fb328ea454.png">
-<menu><menu><menu><menu><menu><menu><menu>
+<br>
+<br>
+<menu><menu><menu><menu>
 <pre>
-<h1>The Gizmo Documentation</h1>
-Gizmo is a simple language, but we still don't expect you to know everything about
-Gizmo right off the bat. This entire page is dedicated to teaching
-Gizmo to newcomers and seasoned programmers alike. If you have a question or you don't
-understand something, ask a question on <a href="https://stackoverflow.com/">Stack Overflow</a> with the tag "gizmo-lang".
-
 <h2>Hello, Gizmo!</h2>
-Like most languages, the classic hello world program is a great way to jump into Gizmo.
-Add the following code into your coding environment.
+When learning a new language, an obvious choice for
+your first program is the classic hello world program.
 
 <code>
-1)	write("Hello, Gizmo!");
+    <span class="gizmo-built">write</span>(<span class="gizmo-string">"Hello, Gizmo!"</span>);
 </code>
-	Run your project and you should see "Hello, World!" pop up in the console.
-Congrats, you have just created your first Gizmo program!
-
-Let's make our program a little more complicated.
-
-<code>
-1)	string input = read("Enter some input: ");
-2)	write("You entered '" + input + "'");
-</code>
-
-<h2>Variables and Input</h2>
-	A variable is a container. The value it contains can be whatever
-you assign it to.
-In the previous example, we 'made a container' and made it contain
-whatever 'read("Enter some input: ")' is.
-
-'read' is a function that reads input from the console, with the the value
-you give it as a prompt.
-Thus, line 1 of the code sets the value of "input" to whatever the user
-enters as input.
-	
-	Line 2 of the code is similar to our first code. We are printing
-the words "You entered '", then we are
-printing the value of variable "input", then we are printing "'".
-
-	Go ahead and run your code. It should be waiting for you to
-answer "Enter some input: "
-If you enter "test" and click enter, it should print "You entered 'test'".
-<h2>Great, But... Let's make it more complicated</h2>
-If you want the more advanced version of this documentation, go see the <a href="docs-advanced.html">Advanced Guide to Gizmo</a> page.
+Run your program. Your output should be
+"Hello, Gizmo!".
 </pre>
-</menu></menu></menu></menu></menu></menu></menu>
+</menu></menu></menu></menu>
     <script src="script.js"></script>
-    <style>
-        div {
-            font-size: 20px;
-        }
-	code {
-	    background-color: #F4F;
-    </style>
   </body>
 </html>
