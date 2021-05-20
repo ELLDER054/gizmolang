@@ -41,6 +41,14 @@ The Gizmo compiler has many features. Including
 2. An LLVM back-end
 3. A smart parser, which combines both phases 2 and 3
 4. A small and simple scanner/lexer
+
+<h2>Guide To Looking At The Source Code</h2>
+All code will be found in the "src" folder in the main repository.
+The c front-end code is in the "front-end" folder.
+The llvm back-end code is in the "back-end" folder.
+The "compiler.c" file is the brain of the whole compiler. It calls all the phases and opens the files needed.
+The "main.sh" file is the file actually called by the user.
+All the other folders are either READMEs or git reminders.
 </pre>
 </menu></menu></menu></menu>
     <script src="script.js"></script>
