@@ -8,17 +8,12 @@
 }
 
 .tab:hover, .tab:active {
-    background-color: rgb(132, 221, 236);
+    background-color: rgb(153, 153, 153);
 }
 
 #nav-bar {
-    background-color: rgb(52, 201, 228);
+    background-color: rgb(93, 98, 99);
     color: rgb(255, 255, 255);
-}
-
-#name {
-    font-size: 25px;
-    font-weight: bold;
 }
 
 #top:link, #top:visited {
@@ -30,7 +25,7 @@
 }
 
 #top:hover, #top:active {
-    background-color: rgb(52, 201, 228);
+    background-color: rgb(93, 98, 99);
     color: #FFFFFF;
 }
 
@@ -44,4 +39,5 @@
 
 pre {
     font-size: 20px;
+    color: #555555;
 }

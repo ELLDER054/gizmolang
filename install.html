@@ -11,10 +11,6 @@
 <body>
     <menu><menu><menu>
 <img height="170px" width="550px" src="https://user-images.githubusercontent.com/76635411/117458638-7f045b80-af18-11eb-8bbe-33fb328ea454.png">
-	    <br>
-<pre id="name">		created & designed by elliott c. derosa</pre>
-<br>
-<br><br>
 	    </menu></menu></menu>
 	<div align="center" id="nav-bar">
 		<a href="index.html" id="top">The Gizmo Programming Language</a>
@@ -26,32 +22,24 @@
 <br>
 <menu><menu><menu><menu>
 <pre>
-<h2>The Guide To Installing Gizmo</h2>
-Click the download button below, then follow the steps.
+<h2>Building Gizmo From Source</h2>
+Requirements:
+<ol>
+<li>A terminal or shell</li><li>clang</li><li>llvm (llc)</li><li>cmake</li><li>git</li><li>gcc</li>
+</ol>
 
-<a class="l" href=""><div id="download">Download</div>gizmo v0.1.0</a>
-
-PUT STEPS HERE
+Run the following commands to build Gizmo:
+<code>
+    git clone https://github.com/ellder054/gizmo-lang.git
+    mkdir gizmo-build
+    cd gizmo-build
+    cmake ../gizmo-lang
+    make
+</code>
 </pre>
 </menu></menu></menu></menu>
     <script src="script.js"></script>
     <style>
-        div {
-            font-size: 25px;
-        }
-
-        .l:link, .l:visited {
-            font-size: 20px;
-            color: rgb(0, 0, 0);
-            padding: 14px 25px;
-            text-align: center;
-            text-decoration: none;
-            display: inline-block;
-        }
-
-        .l:hover, .l:active {
-           color: grey;
-        }
     </style>
   </body>
 </html>
