@@ -41,3 +41,190 @@ pre {
     font-size: 20px;
     color: #555555;
 }
+
+.tab-editor {
+    background-color: #22272E;
+    color: #F8F8F8;
+}
+
+#mode {
+    background-color: #22272E;
+    color: #F8F8F8;
+    float: right;
+}
+
+.backdrop, #editor {
+  font:12px 'Roboto', sans-serif;
+  letter-spacing: 1px;
+  width: 80%;
+  height: 85%;
+  overflow: none;
+}
+
+.front code {
+  display: block;
+  position: relative;
+  white-space: pre-wrap;
+}
+
+.front code::before {
+  content: counter(line);
+  color: grey;
+  counter-increment: line;
+  position: absolute;
+  right: calc(100% + 16px);
+  opacity: 0.5;
+}
+
+#editor {
+  margin: 0;
+  position: absolute;
+  border-radius: 0;
+  background-color: transparent;
+  color: transparent;
+  caret-color: grey;
+  z-index: 2;
+  resize: none;
+  overflow: none;
+  font-family: monospace;
+  font-size: 12px;
+  overflow-y: auto;
+  padding-left: 48px;
+}
+
+.backdrop {
+  position: absolute;
+  z-index: 1;
+  border: 2px solid transparent;
+  pointer-events: none;
+  overflow: none;
+}
+
+.front {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  overflow: none;
+  background-color: #22272E;
+  color: #F8F8F8;
+  font-family: monospace;
+  font-size: 12px;
+  height: 100%;
+  width: 100%;
+  counter-reset: line;
+  overflow-y: auto;
+  padding-left: 48px;
+}
+p{
+  font-family: monospace;
+  font-size: 12px;
+}
+
+font {
+    font-family: monospace;
+    font-size: 12px;
+}
+
+.mini {
+    background-color: #22272E;
+    color: #F8F8F8;
+}
+
+.num-Gizmo {
+    color: #65C3FF;
+}
+
+.str-Gizmo {
+    color: #65C3FF;
+}
+
+.key-Gizmo {
+    color: #F47067;
+}
+
+.com-Gizmo {
+    color: rgb(77, 77, 77);
+}
+
+.type-Gizmo {
+    color: #F47067;
+}
+
+.oper-Gizmo {
+    color: rgb(255, 255, 255);
+}
+
+.property-Gizmo {
+    color: #F8F8F8;
+}
+
+.dif-key-Gizmo {
+    color: #6CB6FF;
+}
+
+.num-Dark {
+    color: palevioletred;
+}
+
+.str-Dark {
+    color: palevioletred;
+}
+
+.key-Dark {
+    color: dodgerblue;
+    font-weight: bold;
+}
+
+.com-Dark {
+    color: darkcyan;
+}
+
+.type-Dark {
+    color: rgb(122, 184, 245);
+}
+
+.oper-Dark {
+    color: red;
+}
+
+.property-Dark {
+    color: rgb(0, 230, 145);
+}
+
+.dif-key-Dark {
+    color: rgb(255, 165, 0);
+    font-weight: bold;
+}
+
+.num-Light {
+    color: rgb(3, 196, 83);
+}
+
+.str-Light {
+    color: rgb(3, 196, 83);
+}
+
+.key-Light {
+    color: rgb(49, 41, 168);
+    font-weight: bold;
+}
+
+.com-Light {
+    color: rgb(184, 201, 184);
+}
+
+.type-Light {
+    color: rgb(57, 119, 57);
+}
+
+.oper-Light {
+    color: #000000;
+}
+
+.property-Light {
+    color: rgb(168, 103, 103);
+}
+
+.dif-key-Light {
+    color: rgb(180, 75, 39);
+    font-weight: bold;
+}
