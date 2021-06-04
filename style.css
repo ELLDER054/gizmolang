@@ -1,6 +1,6 @@
 .tab:link, .tab:visited {
     font-size: 20px;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     padding: 14px 25px;
     text-align: center;
     text-decoration: none;
@@ -8,25 +8,25 @@
 }
 
 .tab:hover, .tab:active {
-    background-color: rgb(153, 153, 153);
+    background-color: rgb(223, 223, 223);
 }
 
 #nav-bar {
-    background-color: rgb(93, 98, 99);
+    background-color: rgb(200, 203, 204);
     color: rgb(255, 255, 255);
 }
 
 #top:link, #top:visited {
     font-size: 20px;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     text-align: center;
     text-decoration: none;
     display: inline-block;
 }
 
 #top:hover, #top:active {
-    background-color: rgb(93, 98, 99);
-    color: #FFFFFF;
+    background-color: rgb(200, 203, 204);
+    color: rgb(0, 0, 0);
 }
 
 * {
