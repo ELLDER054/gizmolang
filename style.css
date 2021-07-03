@@ -1,24 +1,34 @@
 .tab:link, .tab:visited {
     font-size: 20px;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     padding: 14px 25px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
 }
 
+body {
+    background-color: #22272E;
+    color: #FFFFFF;
+}
+
 .tab:hover, .tab:active {
     background-color: rgb(223, 223, 223);
 }
 
+#Out {
+    background-color: #FFFFFF;
+}
+
 #nav-bar {
-    background-color: rgb(200, 203, 204);
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgb(116, 111, 212) 2%, rgba(9,9,121,1) 84%, rgba(0,212,255,1) 100%);
     color: rgb(255, 255, 255);
 }
 
 #top:link, #top:visited {
     font-size: 20px;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -39,7 +49,7 @@
 
 pre {
     font-size: 20px;
-    color: #555555;
+    color: #FFFFFF;
 }
 
 .tab-editor {
