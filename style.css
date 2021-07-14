@@ -1,19 +1,20 @@
-.tab:link, .tab:visited {
+.tab {
     font-size: 20px;
     color: rgb(255, 255, 255);
     padding: 14px 25px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
+    transition: background-color 0.3s ease;
 }
 
 body {
-    background-color: #22272E;
-    color: #FFFFFF;
+    margin: 0;
+    background-color: #eee;
 }
 
 .tab:hover, .tab:active {
-    background-color: rgb(116, 111, 212);
+    background-color: #0093B4;
 }
 
 .Out {
@@ -22,33 +23,18 @@ body {
 
 #nav-bar {
     background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgb(116, 111, 212) 2%, rgba(9,9,121,1) 84%, rgba(0,212,255,1) 100%);
-    color: rgb(255, 255, 255);
-}
-
-#top:link, #top:visited {
-    font-size: 20px;
     color: rgb(255, 255, 255);
     text-align: center;
-    text-decoration: none;
-    display: inline-block;
-}
-
-#top:hover, #top:active {
-    color: #FFFFFF;
 }
 
 * {
     font-family: monospace;
 }
 
-#top {
-    font-size: 35px;
-}
-
 pre {
+    padding: 0 40px;
     font-size: 20px;
-    color: #FFFFFF;
+    color: #22272E;
 }
 
 .tab-editor {
@@ -236,4 +222,11 @@ font {
 .dif-key-Light {
     color: rgb(180, 75, 39);
     font-weight: bold;
+}
+
+#gizmoLogo {
+    mix-blend-mode: multiply;
+    display: block;
+    margin: auto;
+    padding: 20px 0;
 }
