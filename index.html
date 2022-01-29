@@ -1,23 +1,74 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>Gizmo Main Website</title>
-    <link href="style.css" rel="stylesheet" type="text/css" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+  width: 130px;
+  position: fixed;
+  z-index: 1;
+  top: 20px;
+  left: 10px;
+  background: #eee;
+  overflow-x: hidden;
+  padding: 8px 0;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #2196F3;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #064579;
+}
+
+.main {
+  margin-left: 140px; /* Same width as the sidebar + left position in px */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+</style>
 </head>
+<body>
 
-<body id="body">
-    <img id="gizmoLogo" height="55px" width="170px"
-        src="https://user-images.githubusercontent.com/76635411/117458638-7f045b80-af18-11eb-8bbe-33fb328ea454.png">
-    <h1>A Fast and Reliable Programming Language with Simple Syntax!</h1>
-    <div class="sidenav">
-        <a href="tutorial/output.html">Hello, Gizmo!</a>
-    </div>
-    <div class="main">
-        Gizmo is a ...
-    </div>
+<div class="sidenav">
+  <a href="#Output">Hello, Gizmo</a>
+  <a href="#Variables">Variables</a>
+  <a href="#Comments">Comments</a>
+  <a href="#Loops">Loops</a>
+</div>
+
+<div class="main">
+  <h2>The Gizmo Programming Language</h2>
+  <h3>Output</h3>
+  <p>As always, the first step in learning a programming language is printing a desired output to the screen.</p>
+  <p>Gizmo has a feature that allows you to do this</p>
+    <code>
+        write("Hello, Gizmo!");
+    </code>
+  <p>Entering this code into your Gizmo editor will print:</p>
+    <code>Hello, Gizmo!</code>
+  <p>Using this method, you can also print any data type (See <a href="#Data_Types"> for information on data types).</p>
+  <p>For example, we can print either a number, a decimal number, or a character onto the screen</p>
+    <code>
+        write(5); // A number, or an integer
+        write(10.67); // A decimal number
+        write('a'); // A character
+    </code>
+</div>  
+
 </body>
-
-</html>
+</html> 
